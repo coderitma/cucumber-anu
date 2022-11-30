@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PT. Oncom Mania">
+  
+  <test thread-count="5" name="Test Module Dasar">
+  	<classes>
+  		<class name="runners.RunnerTestNGTestModuleTestDasar" />
+  	</classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test Module Customer">
+    <classes>
+      <class name="module.authentication.RunnerAuthentication" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
