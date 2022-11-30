@@ -14,7 +14,7 @@ public class PalindromStepDef {
       kata = string;
   }
 
-  @When("cek palindrom")
+  @When("cek palindrom")  
   public void cek_palindrom() {
       String tampungPalindrom = "";
       for (int i=kata.length(); i > 0; i--) {
